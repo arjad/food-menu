@@ -1,0 +1,69 @@
+.catagory-div{
+    margin-top: 20px;
+    padding-top: 17px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid rgb(209,210,217);
+    /* border:1px solid red; */
+    position: sticky;
+    top:76px;
+    background: white;
+    z-index: 50;
+   
+}
+.catagory-div .col{
+    font-size: 19px;
+    color:black;
+}
+.veg-price-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.veg-price-div button{
+    color: var(--lightgreys);
+    border:1px solid var(--blacks);
+    background: var(--white);
+    border-radius: 4px;
+    font-size: 13px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+
+}
+.veg-price-div i{
+    color:var(--blacks);
+}
+.veg-price-div .filter-div{
+    height: 40px;
+    width:115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--white);
+    color:var(--greys);
+    font-size: 17px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.filter-div i{
+    margin-right: 5px;
+}
+.filter-div p{
+    margin-top: 13px;
+}
+.sale-div{
+    background: var(--gold);
+    color:var(--white);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    font-weight: 500;
+    padding: 4px;
+    position:sticky;
+    top:135px;
+    z-index: 60;
+}

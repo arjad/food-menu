@@ -1,0 +1,37 @@
+.list-div{
+    list-style: none;
+    line-height: 20px;
+    margin-top: -20px;
+    position: sticky;
+    top:185px;
+    z-index: 10;
+}
+.list-div li{
+    font-size: 16px;
+    font-weight: 500;
+    color:var(--greys);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -30px;
+
+}
+.list-div li a{
+    padding-bottom: 4px;
+    color:var(--greys);
+    text-decoration: none;
+}
+.list-div li a:hover{
+    font-size: 18px;
+    color: var(--greys);
+    border-bottom: 2px solid var(--orange);
+    cursor: pointer;
+}
+.highlight{
+    font-size: 18px;
+    color: var(--greys);
+    border-bottom: 2px solid var(--orange);
+    cursor: pointer;
+}
+.list-div li a:focus{
+    font-size: 17px;
+}

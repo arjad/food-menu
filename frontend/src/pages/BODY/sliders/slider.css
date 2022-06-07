@@ -1,0 +1,69 @@
+.slider 
+{
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 280px;
+  overflow: auto;
+  padding: 0px 0px;
+  margin-top: 30px;
+}
+
+.slider .deals{
+  height: 330px;
+  width: 450px;
+  z-index: 50;
+  background-size: 100% 280px;
+}
+.d1
+{
+  background-image: url("../../../assets/no1.jpg");
+
+}
+
+.slider .d2
+{
+  background-image: url("../../../assets/no2.png");
+}
+.slider .d3
+{
+  background-image: url("../../../assets/no3.jpg");
+}
+.slider .d4
+{
+  background-image: url("../../../assets/no4.jpg");
+}
+.slider .d5
+{
+  background-image: url("../../../assets/no5.jpg");
+}
+.slider .d6
+{
+  background-image: url("../../../assets/no6.jpg");
+}
+.slider .d7
+{
+  background-image: url("../../../assets/no7.jpg");
+}
+.slider .d8
+{
+  background-image: url("../../../assets/no8.jpg");
+}
+
+/* inside slider between arrows */
+.slider .sc-dkPtRN{
+  
+}
+.slider .sc-bdvvtL{
+  border-radius: 0px;
+  background-color: aqua;
+  height: 85px;
+  width:80px;
+  color:#4A4A4A;
+  border-radius: 50%;
+  box-shadow: 1.0px 1.0px 8.0px hsl(0deg 0% 0% / 0.38);
+  padding-left: 27px;
+  margin-left:-30px;
+  background-color: white; 
+}

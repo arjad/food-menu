@@ -1,0 +1,167 @@
+.all-pro-div{
+  min-height: 300px;
+}
+.login-root {
+    background: #fff;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.loginbackground {
+    min-height: 692px;
+    overflow: hidden;
+}
+.right-ani{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lineimg{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left:0px;
+  animation-name: example;
+  animation-duration: 4s;
+  background-image: url("../../assets/line2.png");
+  background-size: 650px 400px;
+  background-repeat: no-repeat;
+  background-position:left center; 
+}
+@keyframes example {
+  from   {width:0%}
+  to  {width: 110%}
+}
+  span {
+    display: block;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1a1f36;
+}
+.imgs-ani{
+  height: 300px;
+  width: 350px;
+  position: relative;
+
+}
+.fries-img{
+  height: 180px;
+  width: 150px;
+  top: 60px;
+  position: absolute;
+  right: 10px;
+
+}
+.burger-img{
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  top:140px;
+  left: 130px;
+
+}
+.drink-img{
+  position: absolute;
+  height: 190px;
+  width: 160px;
+  top:50px;
+  left: 40px;
+
+}
+label {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.reset-pass a,label {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+.reset-pass > a {
+    text-align: right;
+    margin-bottom: 10px;
+}
+.field input,select {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 8px 16px;
+    width: 100%;
+    min-height: 44px;
+    border:1px solid rgb(184, 182, 182) !important;
+    border: unset;
+    border-radius: 4px;
+    outline-color:  rgb(252,208,31);
+    background-color: rgb(252, 248, 248);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+
+.field-checkbox input {
+    width: 20px;
+    height: 15px;
+    margin-right: 5px; 
+    box-shadow: unset;
+    min-height: unset;
+}
+.field-checkbox label {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+/* //buutton */
+
+.noselect {
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+.save-btn {
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+  margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+  transition-delay: 1s;
+  background-color:rgb(231, 193, 40);
+  font-weight: bold;
+  position: relative;
+}
+.save-btn span {
+	transition: .5s;
+}
+.text{
+  position: absolute;
+  left:27px;
+}
+.save-btn-img{
+  position: absolute;
+	height: 35px;
+	width: 33px;
+  right: 10px;
+  transition: 0.5s;
+}
+.save-btn:hover {
+  background-color: rgb(252,208,31);
+  
+}
+.save-btn:hover .text {
+	color: transparent;
+}
+
+.save-btn:hover .save-btn-img {
+  right: 60px;
+}
+.save-btn:focus {
+	outline: none;
+}

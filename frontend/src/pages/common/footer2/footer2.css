@@ -1,0 +1,31 @@
+.footer-cont{
+    background-color: #343433;
+}
+.foot2 ul, div{
+    list-style: none;
+    font-weight: 400;
+    
+}
+.foot2 b{
+    color:white;
+    font-size: 13px;
+    margin-bottom: 40px;
+
+}
+.foot2 li{
+ color:rgb(144,144,141);
+ font-size: 13px;
+ line-height: 30px;
+}
+
+.two-col{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+}
+.two-col ul{
+    list-style: none;
+    padding-left: 0px;
+    width: 50%;
+}

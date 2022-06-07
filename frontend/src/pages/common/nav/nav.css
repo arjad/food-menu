@@ -1,0 +1,125 @@
+.nav{
+    height:66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border:grey;
+}
+.nav-left{
+    width: 470px;
+}
+.nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav .logo-img{
+    height:35px;
+    width:160px;
+    position: fixed;
+    z-index: 96;
+    margin-top: 10px;
+}
+
+.nav .nav-left .del{
+    position: relative;
+    float: right;
+    width: 300px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 200px;
+}
+.nav .nav-left .del h4{
+    font-size: 16px;
+    coloR:grey;
+
+}
+.nav .nav-left .del p{
+    font-size: 16px;
+    coloR:#e85826;
+
+    font-weight: 500;   
+    margin-top: 7px;
+
+
+}
+.nav-right{
+    height: 100%;
+
+}
+.yellow-div{
+    height: 100%;
+    width:150px;
+    background-color: #FBD020 !important;
+    position: relative;
+}
+.yellow-div svg{
+    position: absolute;
+    top:30px;
+    left:20px;
+}
+ .yellow-div b{
+    position: absolute;
+    top:24px;
+    left:45px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.yellow-div small{
+    position: absolute;
+    top:44px;
+    left:45px;
+    font-size: 12px;
+}
+.violet-div{
+    position: relative;
+    height: 100%;
+    width:170px;
+    background-color: #603B6D;
+    color:white;
+}
+.violet-div svg{
+    position: absolute;
+    left:20px;
+    top:30px;
+}
+.violet-div button{
+    position: absolute;
+    top:7px;
+    right:8px;
+    border-radius: 5px;
+    font-size: 8px;
+    background-color: white;
+    color: black;
+}
+.violet-div b{
+    color:white;
+    position: absolute;
+    top:24px;
+    left:45px;
+}
+.download-div {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 150px;
+    font-weight: 500;
+    padding-top: 15px; 
+    color:#4C4C4C;
+}
+.download-div:hover{
+    color:#353434;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (min-width:300px) and (max-width:980px)
+{
+
+    .nav-right{
+        display: none;
+    }
+    
+}

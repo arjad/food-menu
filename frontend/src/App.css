@@ -1,0 +1,12 @@
+:root {
+  --darkgrey:rgb(74,74,74);
+    --lightgreys :#80809C;
+    --greys: rgb(102,102,102);
+    --white: #ffffff;
+    --blacks:black;
+    --gold:rgb(245,166,35);
+    --orange:rgb(232,88,38);
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
