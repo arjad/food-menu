@@ -4,4 +4,4 @@ mern stack website, it uploads imges also
 
 
 link isssue sometimes
-https://naughty-sinoussi-38fd4c.netlify.app/
+https://kaleidoscopic-cat-37f8fc.netlify.app/
